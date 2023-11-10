@@ -1,0 +1,369 @@
+.website{
+    width: 100%;
+    max-height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.website h2 span{
+    color: cadetblue;
+    margin: 1.6rem;
+    
+}
+.website-container{
+    max-width: 75%;
+    height: 100vh;
+    padding: 8rem 10% 10rem;
+    margin: 0.5rem;
+    background-color: var(--second-bg-color);
+    border-radius: 1.6rem;
+    box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
+    letter-spacing:  .1rem;
+     background: linear-gradient(45deg, #10375c, #005792,#1d566e);
+}
+
+.website-container h3{
+    font-size: 2rem;
+    margin: 1.6rem;
+}
+
+.website-container p{
+    font-size: 1.7rem;
+}
+.website-container lu{
+    font-size: 1.5rem;
+}
+
+.website-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.website-main .btn {
+    margin: 0.6rem;
+    
+}
+
+
+.post-image {
+    align-items: center;
+    width: 90%;
+    margin: 1.5rem 0 4rem;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+  
+}
+
+
+.post img{
+    border-radius: 0.8rem;
+    width: 20vw;
+
+}
+
+.post:after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+}
+
+.post:hover img {
+    transform: scale(1.1);
+}
+
+ .website-container .picture{
+     position: fixed;
+     top: 0; left: 0;
+     margin: 10rem 0 10rem;
+     padding: 7rem;
+     width: 90%;
+     height: 100vh;
+     display: none;
+}
+
+.website-container .picture span{
+    position: absolute;
+    top:0; right: 2rem;
+    font-size: 6rem;
+    font-weight: bolder;
+    color: #45eba5;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+/*media query*/
+
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 991px) {
+    .header {
+       padding: 2rem 3%;
+        
+    }
+    
+    section{
+        padding: 10rem 3% 2rem;
+    }
+    
+    .experience{
+        padding-bottom: 7rem;
+    }
+    
+    .footer {
+        padding: 2rem 3%;
+    }
+    
+    .picture img {
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .home{
+        margin: 1.5rem 0 0 1rem;
+        align-items: center;
+    }
+    
+    .home-content {
+        margin: 1.5rem;
+    }
+    
+    .home-content.social-media {
+        display: block;
+    }
+    
+    .home-img img {
+          width: 70vw;
+    }
+    
+    #menu-icon {
+        
+        display: block;
+    }
+    
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding:  1rem 3%;
+        background: var(--bg-color);
+        border: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    
+        
+    }
+    
+  .navbar.active {
+        display: block;
+    }
+    
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+    
+    .experience-container {
+       display: grid;
+    }
+    
+    .skill-view ul{
+        font-size: 1.3rem;
+    }
+    
+    .skill-code progress {
+        width: 10rem;
+    }
+    
+       .website-container {
+         padding: 8rem 15% 10rem;
+         max-width: 95%;
+         font-size: 1.5rem;
+    }
+    
+     .website-container .picture img{
+        width: 95%;
+    }
+    
+    .website-dev {
+        margin: 0 0.5rem;
+    }
+    
+    
+    .post img{
+        width: 30vw;
+    }
+    
+
+}
+
+@media (max-width: 617px) {
+    .home {
+        display: grid;
+    }
+    home-content h1 {
+        font-size: 4rem
+    }
+    
+    .home-img {
+        margin: 0.8rem;
+        width: 70vh;
+    
+    }
+    
+    .about {
+        display: grid;
+    }
+    
+    .about img {
+        width: 70vw
+    }
+    
+    .about-content p {
+        font-size: 2rem;
+    }
+    
+    .experience-info:hover{
+        transition: .5s ease;
+    }
+    
+    .experience-info h3 {
+        font-size: 1.8rem;
+    }
+    
+    .experience-info p {
+        font-size: 1.3rem;
+    }
+    
+    .skill-container{
+      padding: 6rem 15% 6rem;
+        
+    }
+    
+    .skill-container h3{
+        font-size: 1.8rem;
+    }
+    
+    .skill-container ul {
+        text-align: center;
+        
+    }
+    
+    .contact-form{
+        display: grid;
+        padding: 8rem 5% 4rem;
+    }
+    
+    .contact-icon{
+        display: block;
+        width: 100%;
+        font-size: 1.5rem;
+        
+    }
+    
+    .contact-main {
+        padding: 2rem 0% 2rem;
+    }
+    
+    .website {
+        margin: 0.5rem;
+    }
+    
+    .post-image .post{
+        padding-left: 1.5rem;
+    }
+    
+      .post img{
+          width: 25vw;
+    }
+    .picture img {
+         width: 85vw;
+         height: 45vh;
+         
+    }
+    
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+        position: fixed;
+    }
+    
+    .header{
+        justify-content: space-between;
+    }
+
+    section{
+        padding: 5rem 3% 0.2rem;
+    }
+    
+    
+    .contact form .contact-box input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+
+    .html {
+        width: 50%; 
+    }
+
+    .home-content {
+        margin: 0 2rem 0 3rem;
+      }
+    .home-img img {
+        width: 90vw;
+    }
+    
+    
+    .about-img img {
+        width: 90vw;
+    }
+    
+    .footer {
+        flex-direction: column-reverse;
+    }
+    
+    footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

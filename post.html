@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE-edge">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Responsive Personal Portfolio | Philiso</title>
+    
+ <!---- box icon ---->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+ <!---- custom css --->
+ <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/custom.css">
+    
+</head>
+
+<body>
+    
+     <!-- header designer --->
+    <header class="header">
+        <a href="#" class="logo"><img src="img/philogo.jpg"/></a>
+        
+         <nav class="footer-icon">
+             <a href="index.html"><i class='bx bxs-chevrons-left' ></i></a>
+         
+        
+         
+        </nav>
+    </header>
+    
+<section class="website" id="website">
+    <h2 class="heading">Presentation<span>Post</span></h2>
+    <div class="website-container">
+        <p>I use to create  presentation post using power point editor.</p>
+     <div class="post-image">
+        <div class="post">
+          <img src="img/presatation2.png.png">
+         </div>
+        <div class="post">
+          <img src="img/presastation4.png">
+         </div>
+        
+       <div class="post">
+          <img src="img/presatation1.png">
+         </div>
+        <div class="post">
+          <img src="img/Photo%20album%20(1).jpg">
+         </div>
+         <div class="post">
+         <img src="img/Photo%20album%20(3).jpg">
+         </div>
+         <div class="post">
+         <img src="img/presatation3.png.png">
+         </div>
+        </div>
+        
+        <div class="picture">
+            <span>&times;</span>
+            <img src="img/presatation3.png.png">
+        </div>
+     
+    </div>
+
+</section>
+    
+<!-- footer design -->
+<footer class="footer">
+   <div class="footer-text">
+    <p>copyright &copy; 2023 by Philiso | All Responsility is restricted</p>
+    </div>
+     <div class="footer-icon">
+       <a href="post.html"><i class='bx bxs-up-arrow-alt'></i></a>
+    </div>
+ </footer>
+
+    
+    <!-- custom js --->
+    <script src="js/script.js">
+    
+    </script>
+    
+    <script>
+           
+     document.querySelectorAll('.post img').forEach(image =>{
+       image.onclick = () =>{
+             document.querySelector('.picture').style.display = 'block';
+             document.querySelector('.picture img').src = image.getAttribute('src');
+       }
+     });
+ 
+    document.querySelector('.picture span').onclick = () =>{
+       document.querySelector('.picture').style.display = 'none';    
+    }  
+    </script>
+
+</body>
+    
+    
+</html>
