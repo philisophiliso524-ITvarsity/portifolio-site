@@ -334,8 +334,20 @@
         
     }
     
-    .home{
-        margin-left: 4rem;
+    .home-content{
+        margin: 1.5rem;
+    }
+    
+    .home-content h1{
+        margin-left: 2rem;
+    }
+    
+    .home-content h3{
+        margin-left: 2rem;
+    }
+    
+    .home-content p{
+        margin-left: 1.5rem;
     }
     
     .header{
