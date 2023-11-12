@@ -334,16 +334,23 @@
         
     }
     
+    .home{
+        margin: 2rem;
+    }
+    
     .home-content{
         margin: 1.5rem;
+        padding-left: 3rem
     }
     
     .home-content h1{
         margin-left: 2rem;
+        padding-left: 3rem;
     }
     
     .home-content h3{
         margin-left: 2rem;
+        padding-left: 2rem;
     }
     
     .home-content p{
