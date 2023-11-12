@@ -334,14 +334,6 @@
         
     }
     
-    .home{
-        margin: 2rem;
-    }
-    
-    .home.home-content{
-        padding: 7rem 5% 2.5rem;
-    }
-    
     .header{
         justify-content: space-between;
     }
@@ -363,14 +355,10 @@
         position: relative;
     }
 
-    .home.home-content {
-       width: 45%;
-      }
     
-    .home-content  {
-        margin: 2rem;
-        padding: 35%;
-        text-align: center;
+    .home {
+         padding: 5rem 7rem;
+         margin: 1.3rem;
     }
     
     .home-img img {
