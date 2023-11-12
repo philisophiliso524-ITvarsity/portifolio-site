@@ -334,6 +334,10 @@
         
     }
     
+    .home{
+        margin-left: 4rem;
+    }
+    
     .header{
         justify-content: space-between;
     }
