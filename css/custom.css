@@ -128,6 +128,7 @@
 }
 
 @media (max-width: 768px) {
+ 
     .home{
         margin: 1.5rem 0 0 1rem;
         align-items: center;
@@ -174,6 +175,32 @@
         margin: 3rem 0;
     }
     
+    .home {
+        flex-direction: column;
+    }
+    
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+    
+    .home-content h1 {
+        font-size: 5rem;
+    }
+    
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    
+    .about {
+        flex-direction: column-reverse;
+    }
+    
+    .about img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    
     .experience-container {
        display: grid;
     }
@@ -186,7 +213,7 @@
         width: 10rem;
     }
     
-       .website-container {
+     .website-container {
          padding: 8rem 15% 10rem;
          max-width: 95%;
          font-size: 1.5rem;
@@ -212,7 +239,7 @@
     .home {
         display: grid;
     }
-    home-content h1 {
+    .home-content h1 {
         font-size: 4rem
     }
     
@@ -221,6 +248,7 @@
         width: 70vh;
     
     }
+    
     
     .about {
         display: grid;
@@ -288,17 +316,30 @@
           width: 25vw;
     }
     .picture img {
-         width: 85vw;
-         height: 45vh;
+         width: 100%;
+         height: 50vh;
+        margin: 5rem 0 1.5rem;
          
     }
     
 }
 
 @media (max-width: 450px) {
-    html {
-        font-size: 50%;
+    
+    body{
         position: fixed;
+    }
+    html {
+        font-size: 45%;
+        
+    }
+    
+    .home{
+        margin: 2rem;
+    }
+    
+    .home.home-content{
+        padding: 7rem 5% 2.5rem;
     }
     
     .header{
@@ -318,12 +359,20 @@
 @media (max-width: 365px) {
 
     .html {
-        width: 50%; 
+        width: 50%;
+        position: relative;
     }
 
-    .home-content {
-        margin: 0 2rem 0 3rem;
+    .home.home-content {
+       width: 45%;
       }
+    
+    .home-content  {
+        margin: 2rem;
+        padding: 35%;
+        text-align: center;
+    }
+    
     .home-img img {
         width: 90vw;
     }
