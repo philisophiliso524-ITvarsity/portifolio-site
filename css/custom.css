@@ -326,9 +326,6 @@
 
 @media (max-width: 450px) {
     
-    body{
-        position: fixed;
-    }
     html {
         font-size: 35%;
         
@@ -336,11 +333,10 @@
     
     .home{
          width: 30vh;
-        margin: 2rem;
     }
     
     .home-content{
-        margin: 1.5rem;
+        margin: 2.5rem;
         padding-left: 3rem
     }
     
@@ -355,7 +351,7 @@
     }
     
     .home-content p{
-        margin-left: 1.5rem;
+        margin-left: 2.5rem;
     }
     
     .header{
