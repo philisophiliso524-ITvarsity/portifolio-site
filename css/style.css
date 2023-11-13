@@ -96,10 +96,10 @@ section .heading{
 }
 
 .home-img img {
-    width: 30vw;
+    width: 25vw;
     border-radius: 2.5rem;
     shape-outside: inset(20%);
-    margin: 0.5rem;
+    margin: 2.5rem;
 }
 
 .home-content h3 {

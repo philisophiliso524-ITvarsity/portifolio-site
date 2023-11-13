@@ -330,11 +330,12 @@
         position: fixed;
     }
     html {
-        font-size: 45%;
+        font-size: 35%;
         
     }
     
     .home{
+         width: 30vh;
         margin: 2rem;
     }
     
