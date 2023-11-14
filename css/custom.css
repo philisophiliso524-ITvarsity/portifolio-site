@@ -240,7 +240,8 @@
         display: grid;
     }
     .home-content h1 {
-        font-size: 4rem
+        font-size: 4rem;
+        padding-bottom: 2rem;
     }
     
     .home-img {
@@ -327,31 +328,19 @@
 @media (max-width: 450px) {
     
     html {
-        font-size: 35%;
+        font-size: 50%;
         
     }
     
     .home{
          width: 50%;
+         text-align: center;
+         margin: 0 4rem 0 4rem;
     }
     
-    .home-content{
-        margin: 2.5rem;
-        padding-left: 3rem
-    }
-    
-    .home-content h1{
-        margin-left: 2rem;
-        padding-left: 3rem;
-    }
-    
-    .home-content h3{
-        margin-left: 2rem;
-        padding-left: 2rem;
-    }
-    
+     
     .home-content p{
-        margin-left: 2.5rem;
+        font-size: 2rem;
     }
     
     .header{
