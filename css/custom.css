@@ -347,28 +347,10 @@
         justify-content: space-between;
     }
 
-    section{
-        padding: 5rem 3% 0.2rem;
-    }
     
-    
-    .contact form .contact-box input {
-        width: 100%;
-    }
 }
 
 @media (max-width: 365px) {
-
-    .html {
-        width: 50%;
-        position: relative;
-    }
-
-    
-    .home {
-         padding: 5rem 7rem;
-         margin: 1.3rem;
-    }
     
     .home-img img {
         width: 90vw;
