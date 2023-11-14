@@ -130,7 +130,6 @@
 @media (max-width: 768px) {
  
     .home{
-        margin: 1.5rem 0 0 1rem;
         align-items: center;
     }
     
@@ -327,15 +326,11 @@
 
 @media (max-width: 450px) {
     
-    html {
-        font-size: 50%;
-        
-    }
     
     .home{
          width: 50%;
          text-align: center;
-         padding: 8rem 10% 10rem;
+         padding: 8rem 10% 10rem 10%;
     }
     
      
@@ -351,6 +346,10 @@
 }
 
 @media (max-width: 365px) {
+    
+    .home{
+      padding: 8rem 15% 10rem;  
+    }
     
     .home-img img {
         width: 90vw;
