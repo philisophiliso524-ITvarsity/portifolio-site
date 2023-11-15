@@ -234,9 +234,10 @@
 
 }
 
-@media (max-width: 617px) {
+@media (max-width: 600px) {
     .home {
         display: grid;
+        margin: 2rem;
     }
     .home-content h1 {
         font-size: 4rem;
@@ -244,8 +245,8 @@
     }
     
     .home-img {
-        margin: 0.8rem;
-        width: 70vh;
+        margin: 1.8rem;
+        width: 35vh;
     
     }
     
@@ -328,14 +329,15 @@
     
     
     .home{
-         width: 50%;
+         width: 95%;
          text-align: center;
-         padding: 8rem 10% 10rem 10%;
+         margin: 2rem;
     }
     
      
-    .home-content p{
+    .home-content {
         font-size: 2rem;
+        padding-right: 3rem;
     }
     
     .header{
@@ -346,10 +348,7 @@
 }
 
 @media (max-width: 365px) {
-    
-    .home{
-      padding: 8rem 15% 10rem;  
-    }
+
     
     .home-img img {
         width: 90vw;
