@@ -19,16 +19,16 @@
     border-radius: 1.6rem;
     box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
     letter-spacing:  .1rem;
-     background: linear-gradient(45deg, #10375c, #005792,#1d566e);
+   
 }
 
 .website-container h3{
-    font-size: 2rem;
-    margin: 1.6rem;
+    font-size: 2.5rem;
+    margin: 1.4rem;
 }
 
 .website-container p{
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 .website-container lu{
     font-size: 1.5rem;

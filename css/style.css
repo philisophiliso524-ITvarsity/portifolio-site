@@ -12,8 +12,8 @@
 }
 
 :root {
-    --bg-color: #00204a;
-    --second-bg-color: #1d566e;
+    --bg-color:  #212121;
+    --second-bg-color:#263238;
     --text-color:#fff;
     --main-color: #29de92;
 }
@@ -228,7 +228,7 @@ section .heading{
 .experience-info {
     padding: 5rem 7rem;
     margin: 1.3rem;
-    background-color: var(--second-bg-color);
+    background-color:#263238;
     border-radius: 0.6rem;
     box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
 }
