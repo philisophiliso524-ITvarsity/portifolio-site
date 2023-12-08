@@ -314,7 +314,8 @@
     }
     
       .post img{
-          width: 25vw;
+        max-width: 450px
+          
     }
     .picture img {
          width: 100%;
