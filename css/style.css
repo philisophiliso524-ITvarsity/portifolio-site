@@ -12,10 +12,11 @@
 }
 
 :root {
-    --bg-color:  #212121;
+    --bg-color:#000000;
     --second-bg-color:#263238;
     --text-color:#fff;
-    --main-color: #29de92;
+    --main-color: 
+#FC4C6E;
 }
 
 html {
@@ -194,7 +195,7 @@ section .heading{
 }
 
 .about-content h2 span {
-      color: cadetblue;
+      color: #9C352E;
 }
 
 .about-content h3 {
@@ -216,7 +217,7 @@ section .heading{
 }
 
 .experience h2 span {
-    color: cadetblue;
+    color: #9C352E;
 
 }
 
@@ -228,14 +229,14 @@ section .heading{
 .experience-info {
     padding: 5rem 7rem;
     margin: 1.3rem;
-    background-color:#263238;
+    background-color:#5A4347;
     border-radius: 0.6rem;
-    box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
+    box-shadow: 0 2.5rem 4rem rgba(0,0,00,.5);
 }
 
 .experience-info i {
     font-size: 4.5rem;
-    color: cadetblue;
+    color: #DFB9C1;
 }
 
 .experience-container: hover 
@@ -278,7 +279,7 @@ section .heading{
 }
 
 .skill h2 span {
-    color: cadetblue;
+    color: #9C352E;
 
 }
 
@@ -334,7 +335,7 @@ section .heading{
 /*======================= skill design =======================*/
 
 .contact h2 span {
-    color: cadetblue;
+    color: #9C352E;
 }
 
 .contact-form {
