@@ -57,7 +57,7 @@ section .heading{
 }
 
 .header .sticky {
-    border-bottom: .1rem solid rgba (0, 0, 0, .2);
+    border-bottom: .2rem solid rgba (0, 0, 0,.2);
 }
 
 .logo img {
@@ -131,8 +131,8 @@ section .heading{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
+    width: 7rem;
+    height: 3rem;
     background: transparent;
     border: 0.2rem solid var(--main-color);
     border-radius: 50%;
@@ -164,7 +164,7 @@ section .heading{
 
 .btn:hover {
      box-shadow: 0 0 1.5rem var(--main-color);
-    transition: .5s ease;
+     transition: .5s ease;
 }
 
 /*======================= about design =======================*/
