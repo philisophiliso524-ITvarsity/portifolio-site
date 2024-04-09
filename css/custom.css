@@ -332,6 +332,11 @@
 
 @media (max-width: 450px) {
     
+    html{
+        font-size: 50%;
+        margin: 2rem;
+    }
+    
     
     .home{
          width: 95%;
