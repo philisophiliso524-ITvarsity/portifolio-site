@@ -575,6 +575,22 @@ section .heading{
         margin: 5rem 0 1.5rem;
          
     }
+
+    .experience-info {
+        padding: 3rem 6rem;
+        margin: 1.3rem;
+        border-radius: 2rem;
+        background-color: #1a1919;
+        box-shadow: 0 2.5rem 4rem rgba(0,0,00,.5);
+    }
+    .experience-info h3 {
+        font-size: .1.8rem;
+        margin: 1.5rem;
+        letter-spacing: 0.2rem;
+    }
+    .experience-container p{
+               margin: 0.5rem;
+    }
     .final {
         align-items: center;
         display: grid;
@@ -584,8 +600,8 @@ section .heading{
     }
 
     .final-footer iframe{
-        width: "160"
-        height: "75"
+        width: "160";
+        height: "75";
     }
     
 }
