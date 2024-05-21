@@ -264,6 +264,7 @@ section .heading{
 }
 
 .experience-info {
+    width: 40%;
     padding: 5rem 7rem;
     margin: 1.3rem;
     border-radius: 2rem;
@@ -276,10 +277,11 @@ section .heading{
     color: var(--main-color);
 }
 
-.experience-container: hover,
-.experience-info: hover{
+.experience-container:hover,
+.experience-info:hover
+.experience-web:hover{
   border: 0.2rem solid var(--text-color);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .experience-info h3 {
@@ -297,6 +299,35 @@ section .heading{
     color: var(--main-color);
    font-size: 1.8rem;
 }
+
+.experience-web {
+    width: 40%;
+    padding: 5rem 7rem;
+    margin: 1.3rem;
+    border-radius: 2rem;
+    background-color: #1a1919;
+    box-shadow: 0 2.5rem 4rem rgba(0,0,00,.5);
+}
+
+.experience-web h3 {
+    font-size: 2rem;
+    margin:.3rem;
+    letter-spacing: 0.2rem;
+}
+
+.experience-web i {
+    font-size: 4.5rem;
+    color: var(--main-color);
+}
+.experience-web p{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.experience-web p span {
+    color: var(--main-color);
+    font-size: 1.5rem;
+ }
 
 .btn{
     display: inline-block;
@@ -405,7 +436,7 @@ section .heading{
     content: "";
     width: 10px;
     background:  var(--text-color);
-    top: -20px;
+    top: -27px;
     right: 0;
     transform: translateX(50%) rotate(45deg);
     border-radius: 2px;
@@ -424,7 +455,7 @@ section .heading{
 }
 
 .contact-form {
-    width 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;

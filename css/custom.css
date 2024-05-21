@@ -1,701 +1,724 @@
-.website{
-    width: 100%;
-    max-height: auto;
-    justify-content: center;
-    align-items: center;
+.website {
+  width: 100%;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.website h2 span{
-    color: var(--main-color);
-    margin: 1.6rem;
-    
+.website h2 span {
+  color: var(--main-color);
+  margin: 1.6rem;
 }
 
-.website-container{
-        display: flex;
-        justify-content: space-between;
+.website-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.website-container h3{
-    font-size: 3rem;
-    margin: 1.4rem;
+.website-container h3 {
+  font-size: 3rem;
+  margin: 1.4rem;
 }
 
-.website-coded{
-    width: 45%;
-    height: 70vh;
-    padding: 3rem 10% 1rem;
-    margin: 3.5rem 0 1.5rem 0;
-    background-color:#1a1919;
-    border-radius: 1.6rem;
-    box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
-    letter-spacing:  .1rem;
-   
+.website-coded {
+  width: 45%;
+  height: 110vh;
+  padding: 3rem 10% 1rem;
+  margin: 3.5rem 0 1.5rem 0;
+  background-color: #1a1919;
+  border-radius: 1.6rem;
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.1rem;
 }
 
-
-.website-coded h3 {
-    font-size: 2rem;
+.website-coded h2 {
+  font-size: 3.5rem;
 }
 
-.website-coded .btn {
-    margin: 1.6rem;
-    width: 100%;
+.website-wordpress {
+  width: 45%;
+  height: 85vh;
+  padding: 3rem 10% 1rem;
+  margin: 3.5rem 0 1.5rem 0;
+  background-color: #1a1919;
+  border-radius: 1.6rem;
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.1rem;
 }
 
-
-.website-wordpress{
-    width: 45%;
-    height: 60vh;
-    padding: 3rem 10% 1rem;
-    margin: 3.5rem 0 1.5rem 0;
-    background-color: #1a1919;;
-    border-radius: 1.6rem;
-    box-shadow: 0 2.5rem 4rem rgba(0,0,0,.5);
-    letter-spacing:  .1rem;
+.website-wordpress h2 {
+  font-size: 3.5rem;
 }
 
-.website-wordpress h3 {
-    font-size: 2rem;
+.web-btn {
+  text-decoration: none;
+  width: 100%;
+  height: 10rem;
+  display: block;
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 0.8rem;
+  margin: auto;
+  margin-top: 4rem;
 }
 
-.website-wordpress .btn {
-    margin: 1.6rem;
-    width: 100%;
-}
-.website-container p{
-    font-size: 2rem;
-}
-.website-container lu{
-    font-size: 1.5rem;
+.web-btn:hover {
+  display: block;
+  box-shadow: 0 0 1.5rem var(--main-color);
 }
 
-
-    /*======================= contact design =======================*/
-
-.aboutmore  h2 span{
-    color: var(--main-color);
-    margin: 1.7rem;
+.web-btn i {
+  color: var(--text-color);
+  margin: 10px;
+  float: left;
+  height: 20px;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 
-.aboutmore p{
-    color: var(--text-color);
-    font-size: 1.7rem;
-    margin: 1.8rem
+.web-btn h3 {
+  color: var(--text-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding: 0;
+  height: 10px;
+  margin: 2.5rem 0 1.5rem 0;
+  width: 90%;
 }
 
+.web-btn p {
+  text-decoration: none;
+  color: var(--second-bg-color);
+  font-size: 1.5rem;
+  margin: 2rem 0 0 2rem;
+}
+
+.website-container lu {
+  font-size: 1.5rem;
+}
+
+/*======================= contact design =======================*/
+
+.aboutmore h2 span {
+  color: var(--main-color);
+  margin: 1.7rem;
+}
+
+.aboutmore p {
+  color: var(--text-color);
+  font-size: 1.7rem;
+  margin: 1.8rem;
+}
 
 .post-image {
-    align-items: center;
-    width: 90%;
-    margin: 1.5rem 0 4rem;
-    font-size: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1.5rem;
-  
+  align-items: center;
+  width: 90%;
+  margin: 1.5rem 0 4rem;
+  font-size: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
 }
 
-
-.post img{
-    border-radius: 0.8rem;
-    width: 20vw;
-
+.post img {
+  border-radius: 0.8rem;
+  width: 20vw;
 }
 
-.post:after{
-    content: " ";
-    width: 100%;
-    height: 100%;
+.post:after {
+  content: " ";
+  width: 100%;
+  height: 100%;
 }
 
 .post:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
- .website-container .picture{
-     position: fixed;
-     top: 0; left: 0;
-     margin: 10rem 0 10rem;
-     padding: 7rem;
-     width: 90%;
-     height: 100vh;
-     display: none;
+.website-container .picture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 10rem 0 10rem;
+  padding: 7rem;
+  width: 90%;
+  height: 100vh;
+  display: none;
 }
 
-.website-container .picture span{
-    position: absolute;
-    top:0; right: 2rem;
-    font-size: 6rem;
-    font-weight: bolder;
-    color: #45eba5;
-    cursor: pointer;
-    z-index: 100;
+.website-container .picture span {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  font-size: 6rem;
+  font-weight: bolder;
+  color: #45eba5;
+  cursor: pointer;
+  z-index: 100;
 }
-
 
 /*media query*/
 
-
-@media (min-width: 1200px) {
+@media (min-width: 1050px) {
   html {
     font-size: 55%;
   }
 }
 
 @media (max-width: 991px) {
-    .header {
-       padding: 2rem 3%;
-        
-    }
-    
-    section{
-        padding: 10rem 3% 2rem;
-    }
-    
-    .experience{
-        padding-bottom: 7rem;
-    }
-    
-    .footer {
-        padding: 2rem 3%;
-    }
-    
-    .picture img {
-        width: 95%;
-    }
-    
-    .skill-container{
-        display: grid;
-    }
-    .contact-form{
-        display: grid;
-        text-align: center;
-    }
-    
+  .header {
+    padding: 2rem 3%;
+  }
 
-     .footer {
-        padding: 2rem 3%;
-    }
+  section {
+    padding: 10rem 3% 2rem;
+  }
+
+  .picture img {
+    width: 95%;
+  }
+
+  .skill-container {
+    display: grid;
+  }
+  .skill-view h3 {
+    width: 100%;
+  }
+  .skill-progress h3 {
+    width: 100%;
+  }
+
+  .skills-technical {
+    margin: 1.5rem;
+  }
+
+  .skill-bar {
+    height: 2rem;
+    background: var(--second-bg-color);
+    border-radius: 2.6rem;
+    width: 100%;
+  }
+
+  /*======================= experience design =======================*/
+
+  .experience-container {
+    align-items: center;
+  }
+  .experience-info {
+    width: 100%;
+  }
+  .experience-web {
+    width: 100%;
+  }
+  /*======================= contact design =======================*/
+  .contact-form {
+    display: grid;
+    text-align: center;
+  }
+  /*======================= final design =======================*/
+
+  .final {
+    height: 90vh;
+  }
+  .final-footer {
+    margin-top: -2rem;
+    height: 90vh;
+    display: grid;
+    padding-bottom: 30rem;
+  }
+  .final-footer p {
+    margin: 4rem;
+  }
+
+  .final-footer ul {
+    margin: 4rem;
+  }
+
+  .final-footer iframe {
+    margin-top: -2rem;
+    width: 100%;
+    height: 30vh;
+  }
 }
 
 @media (max-width: 768px) {
- 
-    .home{
-        align-items: center;
-    }
-    
-    .home-content {
-        margin: 1.5rem;
-    }
-    
-    .home-content.social-media {
-        display: block;
-    }
-    
-    .home-img img {
-          width: 70vw;
-    }
-        
-    .home {
-        flex-direction: column;
-    }
-    
-    .home-content h1 {
-        font-size: 5rem;
-    }
-    
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-    
-    .home-content p {
-        font-size: 1.5rem;
-    }
-    
-    #menu-icon {
-        
-        display: block;
-    }
-    
-    .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding:  1rem 3%;
-        background: var(--bg-color);
-        border: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
-    
-        
-    }
-    
+  .home {
+    align-items: center;
+  }
+
+  .home-content {
+    margin: 1.5rem;
+  }
+
+  .home-content.social-media {
+    display: block;
+  }
+
+  .home-img img {
+    width: 70vw;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-content h3 {
+    font-size: 2.6rem;
+  }
+
+  .home-content p {
+    font-size: 1.5rem;
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 3%;
+    background: var(--bg-color);
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+
   .navbar.active {
-        display: block;
-    }
-    
-    .navbar a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-    
-    .home {
-        flex-direction: column;
-    }
-    
-    .home-content h1 {
-        font-size: 5rem;
-    }
-    
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-    
-    .home-content p {
-        font-size: 1.5rem;
-    }
-    
-    
-    
-    
-section .heading{
+    display: block;
+  }
+
+  .navbar a {
+    display: block;
+    font-size: 2rem;
+    margin: 3rem 0;
+  }
+  .home-img img {
+    display: none;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .home-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-content h3 {
+    font-size: 2.6rem;
+  }
+
+  .home-content p {
+    font-size: 1.5rem;
+  }
+
+  section .heading {
     margin: 3rem 0 0.2rem;
-}
-     .heading  span h2 {
-        margin: 2rem;
-    }
-    
-      /*======================= about design =======================*/
-    .about{
-        display: grid;
-    }
-    .about h3{
-        margin: 2rem;
-        font-size: 2rem;
-    }
-    
-    
-    .about-img img{ 
-        margin: 1rem;          
-        justify-content: center;
-        margin: 0 1rem 1rem 3rem;
-    }
-    
-    .about-content p {
-        font-size: 1.5rem;
-    }
-    .about img {
-        width: 68vw;
-        border-radius: 1.8rem;
-    }
-    
-    .aboutmore  h2{
-        font-size: 4.3rem;
-    }
-    
-    .aboutmore  p{
-        font-size: 1.5rem;
-    }
-    /*======================= education design =======================*/
-    
-    .education {
-        margin: 3rem 0 1rem 3rem;
-        height: 10vh;
-    }
-    
-  .education  span h2 {
-        margin: 2rem;
-    }
-     .education-container {
-        align-items: center; 
-         margin: center;
-    }
-    
-    .education-container table{
-        margin-left:  -4rem;
-    }
-    
-    .education-container th{
-        margin: 1.6rem;
-        font-size: 1.4rem;
-    }
-    
-    
-    .education-container td{
-        font-size: 1.1rem;
-    }
-    
-    
-    /*======================= contact design =======================*/
-          
-    .contact-icon{
-        margin: 4rem;
-        justify-content: center;
-        display: grid;
-        align-items: center;
-        margin: 3rem;
-        font-size: 1.5rem;
-        
-    }
-    
-   .contact-name {
-       margin-left:  4rem; 
-        display: grid;
-        font-size: 1.5rem; 
-        text-align: center;
-        width: 100%;
-    }
-    
-    .contact-name i {
-        font-size: 2.5rem   
-    }
-  .contact-form{
-        display: grid;
-        
-    }
-    
-    .contact-main{
-        align-items: center;
-        width: 100vw;
-        margin: 5.4rem;
-    }
-    
-    .contact-icon{
-        justify-content: center;
-        display: inline-grid;
-        width: 100%;
-        font-size: 1.5rem;
-        
-    }
-       
-    /*======================= skill design =======================*/
-    
-    .skill-container{
-        width: 100%;
-        display: grid;
-        align-content: center;
-       justify-content: center;
-        margin: 5rem;
+  }
+  .heading span h2 {
+    margin: 2rem;
+  }
 
-    }
-    
+  /*======================= about design =======================*/
+  .about {
+    display: grid;
+  }
+  .about h2 {
+    margin: 2rem;
+    font-size: 4rem;
+  }
+
+  .about-content p {
+    margin: 0.2rem;
+  }
+
+  .about-img img {
+    margin: 1rem;
+    justify-content: center;
+    margin: 0 1rem 1rem 3rem;
+  }
+
+  .about img {
+    width: 68vw;
+    border-radius: 1.8rem;
+  }
+
+  .aboutmore h2 {
+    font-size: 4.3rem;
+  }
+
+  .aboutmore p {
+    font-size: 2rem;
+  }
+  /*======================= education design =======================*/
+
+  .education {
+    margin: 3rem 0 -1rem 3rem;
+    height: 10vh;
+  }
+
+  .education span h2 {
+    margin: 2rem;
+  }
+  .education-container {
+    align-items: center;
+    margin: center;
+  }
+
+  .education-container table {
+    margin-left: -4rem;
+  }
+
+  .education-container th {
+    margin: 1.6rem;
+    font-size: 1.4rem;
+  }
+
+  .education-container td {
+    font-size: 1.1rem;
+  }
+
+  /*======================= contact design =======================*/
+
+  .contact-icon {
+    margin: 4rem;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    margin: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .contact-name {
+    margin-left: 4rem;
+    display: grid;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-name i {
+    font-size: 2.5rem;
+  }
+  .contact-form {
+    display: grid;
+  }
+
+  .contact-main {
+    align-items: center;
+    width: 100vw;
+    margin: 5.4rem;
+  }
+
+  .contact-icon {
+    justify-content: center;
+    display: inline-grid;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  /*======================= skill design =======================*/
+
+  .skill-container {
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin: 5rem;
+  }
+
   .skill-progress {
-        font-size: 1.5rem;
-        color: var(--text-color);
-        width: 78vw;
-       margin: 3rem 3rem 0 0;
-    
-    }
-    .skill-bar {
-        width: 100%;
-    }
-    
-    .skill-view ul{
-        font-size: 1.3rem;
-    }
-    
-    
+    font-size: 1.5rem;
+    color: var(--text-color);
+    width: 78vw;
+    margin: 3rem 3rem 0 0;
+  }
+  .skill-bar {
+    width: 100%;
+  }
 
-    
-    .experience {
-        height: 35vh;
-        margin: 3rem;
-    }
-    
-     .website-container {
-         justify-content: center;
-         text-align: center;
-         display: grid;
-    }
-    
-    
-    .website-coded{
-        width: 100%;
-        height: 70vh;
-    }
-    
-    
-  .website-wordpress{
-        width: 100%;
-    }
-     .website-container .picture img{
-        width: 95%;
-    }
-    
-    .website-dev {
-        margin: 0 0.5rem;
-    }
-    
-    
-    .post img{
-        width: 30vw;
-    }
-    
-    /*======================= final design =======================*/
-    .final{
-        height: 70vh;
-    }
-    .final-footer{
-       display: grid; 
-    }
-    .final-footer ul{
-      margin: 4em;
-    }
-    
-    .final-footer iframe{
-        width: 100%;
-        height:75%; 
-            
-    }
-    
+  .skill-view ul {
+    font-size: 1.3rem;
+  }
 
+  .experience-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+  }
+
+  .website-container {
+    justify-content: center;
+    text-align: center;
+    display: grid;
+  }
+
+  .website-coded {
+    width: 100%;
+    padding: 2rem 5rem;
+    margin: 1.3rem;
+    border-radius: 2rem;
+    background-color: #1a1919;
+    box-shadow: 0 2.5rem 3rem rgba(0,0,00,.5);
+    height: 115vh;
+  }
+
+  .website-wordpress {
+    width: 100%;
+    padding: 2rem 5rem;
+    margin: 1.3rem;
+    border-radius: 2rem;
+    background-color: #1a1919;
+    box-shadow: 0 2.5rem 3rem rgba(0, 0, 00, 0.5);
+    height: 115vh;
+  }
+  .website-container .picture img {
+    width: 95%;
+  }
+
+  .website-dev {
+    margin: 0 0.5rem;
+  }
+
+  .post img {
+    width: 30vw;
+  }
+
+  /*======================= final design =======================*/
+  .final {
+    height: 100vh;
+  }
+  .final-footer {
+    margin-top: -27rem;
+    height: 45vh;
+    display: grid;
+  }
+  .final-footer ul {
+    margin: 4rem;
+  }
+
+  .final-footer iframe {
+    margin-top: -2rem;
+    width: 100%;
+    height: 30vh;
+  }
 }
 
 @media (max-width: 600px) {
-    .home {
-        display: grid;
-        margin: 2rem;
-    }
-    .home-content h1 {
-        font-size: 5rem;
-        padding-bottom: 2rem;
-    }
-    
-    .home-content p{
-        font-size: 1.7rem;
-    }
-    
-    .home-content .btn{
-        margin: 1.5rem;
-    }
-    .home-img {
-     display: none;
-    
-    }
-    
-    .about {
-        display: grid;
-    }
-    
-    .about-content p{
-        font-size: 1rem;
-        margin: 2rem;
-    }
-    .about-img img{
-        width: 60vw;
-        margin-right: 4rem;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 1.5rem;
-        
-    }
-    
-    .about-content p {
-        font-size: 2rem;
+  .home {
+    display: grid;
+    margin: 2rem;
+  }
+  .home-content h1 {
+    font-size: 5rem;
+    padding-bottom: 2rem;
+  }
 
-    }
-    /*======================= education design =======================*/
-    
-    .education-container table {
-        align-content: center;     
-    }
-    
-     /*======================= skill design =======================*/
-    .skill h2 {
-        font-size: 3rem;
-    }
-    
-    .skill h2 span {
-        font-size: 3rem;
-        color: var(--main-color);
-}
-    .skill-container{
-     width: 100%;
-        
-        
-    }
-    
-    /*======================= contact design =======================*/
-    
-    .contact h2 {
-        font-size: 3rem;
-    }
-    .contact h2 span {
-        font-size: 3rem;
-        color: var(--main-color);
-}
-    
-    .contact-name {
-        display: grid;
-        font-size: 1.4rem;  
-    }
-    
-    .contact-name i {
-        font-size: 3rem;
-    }  
-    
-    .contact-form{
-        display: grid;
-        padding: 8rem 5% 4rem;
-    }
-    
-    .contact-icon{
-        display: block;
-        width: 100%;
-        font-size: 1.5rem;
-        
-    }
-    
-    .contact-main {
-        padding: 2rem 0% 2rem;
-    }
-    
-    .website-container{
-        margin: 0.5rem;
-    }
-    
-    .website-container p {
-        font-size: 1.5rem;
-    }
-    
-    .post-image .post{
-        padding-left: 1.5rem;
-    }
-    
-      .post img{
-        max-width: 450px
-          
-    }
-    .picture img {
-         width: 100%;
-         height: 50vh;
-        margin: 5rem 0 1.5rem;
-         
-    }
+  .home-content p {
+    font-size: 1.7rem;
+  }
 
-    .experience-info {
-        padding: 3rem 6rem;
-        margin: 1.3rem;
-        border-radius: 2rem;
-        background-color: #1a1919;
-        box-shadow: 0 2.5rem 4rem rgba(0,0,00,.5);
-    }
-    .experience-info h3 {
-        font-size: .1.8rem;
-        margin: 1.5rem;
-        letter-spacing: 0.2rem;
-    }
-    .experience-container p{
-               margin: 0.5rem;
-    }
-    .final {
-        align-items: center;
-        display: grid;
-    }
-    .final-footer{
-          margin: 3rem;
-    }
+  .home-content .btn {
+    margin: 1.5rem;
+  }
+  .home-img {
+    display: none;
+  }
 
-    .final-footer iframe{
-        width: "160";
-        height: "75";
-    }
-    
+  .about {
+    display: grid;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    margin: 1rem;
+  }
+  .about-img img {
+    width: 60vw;
+    margin-right: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .about-content p {
+    font-size: 2rem;
+  }
+  /*======================= education design =======================*/
+
+  .education-container table {
+    align-content: center;
+  }
+
+  /*======================= skill design =======================*/
+  .skill h2 {
+    font-size: 3rem;
+  }
+
+  .skill h2 span {
+    font-size: 3rem;
+    color: var(--main-color);
+  }
+  .skill-container {
+    width: 100%;
+  }
+
+  /*======================= contact design =======================*/
+
+  .contact h2 {
+    font-size: 3rem;
+  }
+  .contact h2 span {
+    font-size: 3rem;
+    color: var(--main-color);
+  }
+
+  .contact-name {
+    display: grid;
+    font-size: 1.4rem;
+  }
+
+  .contact-name i {
+    font-size: 3rem;
+  }
+
+  .contact-form {
+    display: grid;
+    padding: 8rem 5% 4rem;
+  }
+
+  .contact-icon {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .contact-main {
+    padding: 2rem 0% 2rem;
+  }
+
+  .website-container {
+    margin: 0.5rem;
+  }
+
+  .website-container p {
+    font-size: 1.5rem;
+  }
+
+  .post-image .post {
+    padding-left: 1.5rem;
+  }
+
+  .post img {
+    max-width: 450px;
+  }
+  .picture img {
+    width: 100%;
+    height: 50vh;
+    margin: 5rem 0 1.5rem;
+  }
+
+  .experience-info {
+    width: 100%;
+    padding: 2rem 5rem;
+    margin: 1.3rem;
+    border-radius: 2rem;
+    background-color: #1a1919;
+    box-shadow: 0 2.5rem 3rem rgba(0, 0, 00, 0.5);
+  }
+  .experience-web {
+    width: 100%;
+    padding: 2rem 5rem;
+    margin: 1.3rem;
+    border-radius: 2rem;
+    background-color: #1a1919;
+    box-shadow: 0 2.5rem 3rem rgba(0, 0, 00, 0.5);
+  }
+  .experience-info h3 {
+    font-size: 0.1.8rem;
+    margin: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+  .experience-container p {
+    margin: 0.5rem;
+  }
+  .final {
+    align-items: center;
+    display: grid;
+  }
+  .final-footer {
+    margin: 3rem;
+  }
+
+  .final-footer iframe {
+    width: "160";
+    height: "75";
+  }
 }
 
 @media (max-width: 450px) {
-    
-    html{
-        font-size: 50%;
-        margin: 2rem;
-    }
-    
-    
-    .home{
-         width: 95%;
-         text-align: center;
-         margin: 2rem;
-    }
-    
-     
-    .home-content {
-        font-size: 2rem;
-        padding-right: 3rem;
-    }
-    
-    .header{
-        justify-content: space-between;
-    }
-    
- .post img{
-        max-width: 450px
-          
-    }
-           
+  html {
+    font-size: 50%;
+    margin: 2rem;
+  }
 
-.final {
+  .home {
+    width: 95%;
+    text-align: center;
+    margin: 2rem;
+  }
+
+  .home-content {
+    font-size: 2rem;
+    padding-right: 3rem;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .post img {
+    max-width: 450px;
+  }
+
+  .final {
     align-items: center;
     display: grid;
-}
-.final-footer{
-      margin: 3rem;
-}
+  }
+  .final-footer {
+    margin: 3rem;
+  }
 
-.final-footer iframe{
+  .final-footer iframe {
     width: "155";
     height: "78";
     margin: 2rem;
-}
-
+  }
 }
 
 @media (max-width: 365px) {
+  .home-img img {
+    width: 90vw;
+  }
 
-    
-    .home-img img {
-        width: 90vw;
-    }
-    
-    
-    .about-img img {
-        width: 90vw;
-    }
-    
-    .footer {
-        flex-direction: column-reverse;
-    }
-    
-    footer p {
-        text-align: center;
-        margin-top: 2rem;
-    }
+  .about-img img {
+    width: 90vw;
+  }
 
+  .footer {
+    flex-direction: column-reverse;
+  }
+
+  footer p {
+    text-align: center;
+    margin-top: 2rem;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
