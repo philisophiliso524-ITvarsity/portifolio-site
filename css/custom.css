@@ -715,8 +715,17 @@
     flex-direction: column-reverse;
   }
 
-  footer p {
+  .footer p {
     text-align: center;
     margin-top: 2rem;
   }
+  .final {
+     flex-direction: column-reverse;
+  }
+  .final-footer {
+    margin-top: -17rem;
+    height: 35vh;
+    display: grid;
+  }
+
 }
