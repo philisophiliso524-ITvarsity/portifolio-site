@@ -189,7 +189,7 @@ section .heading{
 }
 .about-img img {
     width: 30vw;
-    border-radius: 8rem;
+    border-radius: 1.5rem;
 }
 
 .heading {
