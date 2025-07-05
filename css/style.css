@@ -56,8 +56,8 @@ section .heading{
     z-index: 100;
 }
 
-.header .sticky {
-    border-bottom: .2rem solid rgba (0, 0, 0,.2);
+.header {
+    border-bottom: .2rem solid var(--second-bg-color);
 }
 
 .header-icon {
@@ -218,8 +218,8 @@ section .heading{
 }
 
 .about-content .btn{
-  align-items: center;
-    margin:  0 8rem 0;
+  text-align: center;
+  margin: 1rem 1rem 3rem 28rem;
 }
 
 /*======================= education design =======================*/

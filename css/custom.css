@@ -453,13 +453,15 @@
     font-size: 1.3rem;
   }
 
+   /*======================= experience design =======================*/
+
   .experience-container {
     display: grid;
     justify-content: center;
     text-align: center;
     display: grid;
   }
-
+ /*======================= website design =======================*/
   .website-container {
     justify-content: center;
     text-align: center;
@@ -474,7 +476,7 @@
     border-radius: 2rem;
     background-color: #1a1919;
     box-shadow: 0 2.5rem 3rem rgba(0,0,00,.5);
-    height: 80vh;
+    height: 70vh;
   }
 
   .website-coded h2{
@@ -489,7 +491,7 @@
     border-radius: 2rem;
     background-color: #1a1919;
     box-shadow: 0 2.5rem 3rem rgba(0, 0, 00, 0.5);
-    height: 90vh;
+    height: 70vh;
   }
 
   .website-wordpress h2 {
@@ -513,7 +515,15 @@
   float: left;
  }
 
-  .website-dev {
+ .web-btn i {
+
+  margin: 2.5rem;
+  height: 3rem;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.website-dev {
     margin: 0 0.5rem;
   }
 
@@ -553,40 +563,78 @@
     display: grid;
     margin: 2rem;
   }
+ .home-content {
+  text-align: center;
+  margin: 5rem 3rem 1.5rem 0;
+ }
+
   .home-content h1 {
-    font-size: 5rem;
+    text-align: center;
+    font-size: 4rem;
     padding-bottom: 2rem;
+  }
+
+  .home-content h3 {
+    text-align: center;
+    font-size: 2rem;
   }
 
   .home-content p {
     font-size: 1.7rem;
   }
-
+   .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: 0.2rem solid var(--main-color);
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--main-color);
+    margin: 5rem 2rem 4rem 2rem;
+  
+}
   .home-content .btn {
-    margin: 1.5rem;
+    align-items: center;
+    margin: 0.5rem 3.5rem;
   }
   .home-img {
     display: none;
   }
-
+ /*======================= about design =======================*/
   .about {
     display: grid;
+  }
+
+  .about-content h2{
+    font-size: 3.5rem;
   }
 
   .about-content p {
     font-size: 1.5rem;
     margin: 1rem;
   }
+
+  .about-content .btn {
+      text-align: center;
+      margin: 1rem 1rem 3rem 14rem;
+  }
   .about-img img {
     width: 60vw;
     margin-right: 4rem;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1.5rem;
+    margin: 1rem 1.4rem 3rem 9rem;
   }
 
 
   /*======================= education design =======================*/
+
+  .education h2{
+    font-size: 3rem;
+  }
 
   .education-container table {
     align-content: center;
@@ -681,13 +729,25 @@
   .contact-main {
     padding: 2rem 0% 2rem;
   }
-
+/*======================= website design =======================*/
+  .website h2 {
+     font-size: 3rem;
+  }
   .website-container {
     margin: 0.5rem;
   }
 
+  .website-container h2{
+    font-size: 2.5rem;
+  }
+
+  .website-container h3{
+    font-size: 1.7rem;
+    margin: 1rem 0 1rem 1.2rem;
+  }
+
   .website-container p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .post-image .post {
@@ -702,6 +762,12 @@
     height: 50vh;
     margin: 5rem 0 1.5rem;
   }
+
+   /*======================= exprience design =======================*/
+   .experience h2{
+      font-size: 3rem;
+   }
+  
 
   .experience-info {
     width: 100%;
@@ -720,13 +786,23 @@
     box-shadow: 0 2.5rem 3rem rgba(0, 0, 00, 0.5);
   }
   .experience-info h3 {
-    font-size: 0.1.8rem;
+    font-size: 2rem;
     margin: 1.5rem;
     letter-spacing: 0.2rem;
   }
-  .experience-container p {
-    margin: 0.5rem;
+ .experience-info p {
+  font-size: 1.4rem;
+ }
+
+   .experience-web h3 {
+    font-size: 2rem;
+    margin: 1.5rem;
+    letter-spacing: 0.2rem;
   }
+ .experience-web p {
+  font-size: 1.4rem;
+ }
+
   .final {
     align-items: center;
     display: grid;
