@@ -48,7 +48,9 @@
         <h3>Junior <span>Full Stack</span> Developer</h3>
 
         <div class="social-media">
-          <a href="https://www.facebook.com/ITnationwide"
+          <a href="https://www.facebook.com/philisozith
+          
+          "
             ><i class="bx bxl-facebook-circle"></i
           ></a>
           <a href="https://github.com/Z687870"><i class="bx bxl-github"></i></a>
@@ -240,6 +242,13 @@
           </div>
 
           <div class="skills-technical">
+            <div class="skill-name">PHP</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="34%" style="max-width: 34%"></div>
+            </div>
+          </div>
+
+          <div class="skills-technical">
             <div class="skill-name">Node.js</div>
             <div class="skill-bar">
               <div class="skill-per" per="46%" style="max-width: 46%"></div>
@@ -250,6 +259,13 @@
             <div class="skill-name">MongoDB</div>
             <div class="skill-bar">
               <div class="skill-per" per="40%" style="max-width: 40%"></div>
+            </div>
+          </div>
+
+             <div class="skills-technical">
+            <div class="skill-name">mySQL</div>
+            <div class="skill-bar">
+              <div class="skill-per" per="43%" style="max-width: 43%"></div>
             </div>
           </div>
 
@@ -295,23 +311,24 @@
         <div class="contact-main">
           <form class="contact" action="" method="post">
             <div class="contact-box">
-              <input type="text" placeholder="Full Name" />
-              <input type="email" placeholder="Your Email" />
+              <input type="text" placeholder="Full Name" id="name"/>
+              <input type="email" placeholder="Your Email" id="email"/>
             </div>
 
             <div class="contact-box">
-              <input type="number" placeholder="Your Number" />
-              <input type="text" placeholder="Email Subject" />
+              <input type="number" placeholder="Your Number" id="phone" class="item" autocomplete="off"/>
+              <input type="text" placeholder="Email Subject" id="subject" class="item" autocomplete="off" />
             </div>
 
             <textarea
               name=""
-              id=""
+              id="message"
+              class="item" autocomplete="off"
               cols="30"
               rows="10"
               placeholder="Your Message"
             ></textarea>
-            <input type="submit" value="send" class="btn" />
+            <button type="submit" class="btn">Send</button>
           </form>
         </div>
       </div>

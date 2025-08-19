@@ -29,6 +29,8 @@ window.onscroll = ()  => {
          };
     });
 
+    
+
 /*======================= sticky navbar =======================*/
 let header = document.querySelector('header');
 
@@ -39,8 +41,43 @@ header.classList.toggle('sticky', window.scrollY > 100);
      menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 
+
+
 };
 
+    
+/*========================== send email to gmail ================================*/  
+
+const form = document.querrySelector("form");
+const fullName = document.getElementById("name");
+const email = document.getElementById("email");
+const subject = document.getElementById("subject");
+const mess = document .getElementById("message");
+
+function sendEmail() {
+   const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}<br> Phone Number: ${phone.value}<br> Message: ${mess.value}`;
+
+    Email.send({
+    Host : "smpt.elasticemail.com",
+    Username : "phumzilemzayifani@gmail.com",
+    Password : "34488D8717BAA1E71BB67716E4804522F90A",
+    To : 'phumzilemzayifani@gmail.com',
+    From : "phumzilemzayifani@gmail.com",
+    Subject: subject.value,
+    Body : bodyMessage
+}).then(
+  message => alert(message)
+); 
+
+}
+
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    sendEmail();
+});
+
+
+   
 
 
 
