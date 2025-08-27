@@ -25,7 +25,8 @@
   height: 80vh;
   padding: 3rem 10% 1rem;
   margin: 3.5rem 0 1.5rem 0;
-  background-color: #1a1919;
+  background: transparent;
+  border: .2rem solid var(--second-bg-color);
   border-radius: 1.6rem;
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   letter-spacing: 0.1rem;
@@ -41,7 +42,8 @@
   height: 80vh;
   padding: 3rem 10% 1rem;
   margin: 3.5rem 0 1.5rem 0;
-  background-color: #1a1919;
+  background: transparent;
+  border: .2rem solid var(--second-bg-color);
   border-radius: 1.6rem;
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
   letter-spacing: 0.1rem;
@@ -215,11 +217,8 @@
   .experience-web {
     width: 100%;
   }
-  /*======================= contact design =======================*/
-  .contact-form {
-    display: grid;
-    text-align: center;
-  }
+
+
   /*======================= final design =======================*/
 
   .final {
@@ -281,6 +280,7 @@
 
   #menu-icon {
     display: block;
+    padding-left: 4.5rem;
   }
 
   .navbar {
@@ -392,41 +392,57 @@
 
   /*======================= contact design =======================*/
 
-  .contact-icon {
+  .contact{
+    height: 200vh;
+  }
+  .contact-form {
     margin: 4rem;
     justify-content: center;
-    display: grid;
+    display: block;
     align-items: center;
-    margin: 3rem;
+    margin-bottom: 4rem;
+    padding: 3.5rem 3rem;
     font-size: 1.5rem;
   }
 
-  .contact-name {
-    margin-left: 4rem;
-    display: grid;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 100%;
+  .contact-form h3{
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+.contact-name {
+  margin: auto;
   }
 
   .contact-name i {
-    font-size: 2.5rem;
-  }
-  .contact-form {
-    display: grid;
+    font-size: 2rem;
+    color: var(--main-color);
+    background: transparent;
+    border: .2rem solid var(--main-color);
+    width: 4.2rem;
+    height: 4.4rem;
+    top: 50%;
+    bottom: 50%;
+    padding: 1rem 1rem;
   }
 
-  .contact-main {
-    align-items: center;
-    width: 100vw;
-    margin: 5.4rem;
+  .contact-name p{
+     font-size: 1.5rem;
+     padding-left: 2.4rem;
+     padding-top: 1.4rem;
+     width: 100%;
   }
 
   .contact-icon {
     justify-content: center;
-    display: inline-grid;
+    display: grid;
     width: 100%;
     font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+
+  .contact-field .btn{
+    margin-left: 12rem;
   }
 
   /*======================= skill design =======================*/
@@ -447,6 +463,11 @@
   }
   .skill-bar {
     width: 100%;
+    height: 1rem;
+  }
+
+  .skill-per {
+    height: 1rem;
   }
 
   .skill-view ul {
@@ -474,7 +495,7 @@
     padding: 2rem 5rem;
     margin: 1.3rem;
     border-radius: 2rem;
-    background-color: #1a1919;
+    background: transparent;
     box-shadow: 0 2.5rem 3rem rgba(0,0,00,.5);
     height: 70vh;
   }
@@ -489,7 +510,7 @@
     padding: 2rem 5rem;
     margin: 1.5rem;
     border-radius: 2rem;
-    background-color: #1a1919;
+    background: transparent;
     box-shadow: 0 2.5rem 3rem rgba(0, 0, 00, 0.5);
     height: 70vh;
   }
@@ -531,6 +552,11 @@
   /*======================= final design =======================*/
   .final {
     height: 100vh;
+    width: 768px;
+  }
+
+  .footer{
+    width: 100%;
   }
   .final-footer {
     margin-top: -27rem;
@@ -550,12 +576,26 @@
 
 @media (max-width: 600px) {
 
-  .header-icon {
-      padding: 1rem 1rem;
+.header-icon {
+    padding: 1rem 1rem;
+    margin: 0 22rem 0 -2rem;
+    cursor: default;
+    border: .1rem double var(--main-color);
+    border-radius: 50%;
+    background-color: var(--second-bg-color);
+}
+
+  #menu-icon{
+    padding-left: 4.5rem; 
   }
 
+ .navbar a {
+    font-size: 1.6rem;
+    border-bottom: .1rem solid var(--second-bg-color);
+ }
+
   .header-icon h2{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 2rem;
   }
 
@@ -663,18 +703,18 @@
   }
 
   .skill-bar{
-    height: 1.5rem;
+    height: 1rem;
   }
 
   .skill-per{
-    height: 1.5rem;
+    height: 1rem;
   }
 
   .skill-per::before{
     content: attr(per);
     position: absolute;
     padding: 2px 3px;
-    background: var(--text-color);
+    color: var(--text-color);
     border-radius: 4px;
     font-size: 10px;
     top: -20px;
@@ -716,19 +756,41 @@
   }
 
   .contact-form {
-    display: grid;
-    padding: 8rem 5% 4rem;
+    margin: 2rem;
+  }
+
+  .contact-form h3{
+    font-size: 1.6rem;
+     margin: 3rem 10rem 3rem;
+     width: 100%;
+  }
+
+  .contact-field hr{
+    margin: -5rem 10rem 4rem;
+     width: 100%;
+  }
+
+  .contact-name{
+    margin-bottom: -2rem;
+    margin-top: 1rem;
+  }
+
+  .contact-name i{
+    font-size: 1.9rem;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.4rem;
+    padding-right: 2rem;
+  }
+
+  .contact-name p{
+    padding-top: 6rem;
   }
 
   .contact-icon {
-    display: block;
-    width: 100%;
-    font-size: 1.5rem;
+    margin: 0 4rem;
   }
 
-  .contact-main {
-    padding: 2rem 0% 2rem;
-  }
+
 /*======================= website design =======================*/
   .website h2 {
      font-size: 3rem;
@@ -803,18 +865,29 @@
   font-size: 1.4rem;
  }
 
+/*======================= footer design =======================*/
+
   .final {
     align-items: center;
     display: grid;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer-icon a {
+    width: 100%;
   }
   .final-footer {
     margin: 3rem;
   }
 
-  .final-footer iframe {
-    width: "160";
-    height: "75";
+  .footer-icon a{
+    margin-top: 1rem;
   }
+
+ 
 }
 
 @media (max-width: 450px) {

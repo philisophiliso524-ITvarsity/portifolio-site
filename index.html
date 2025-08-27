@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Responsive Personal Portfolio | Philiso</title>
+    <title>Philiso's Portifolio</title>
 
     <!---- box icon ---->
     <link
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/png"  href="img/icon1.png"/>
   </head>
 
   <body>
@@ -130,7 +131,7 @@
           <p>
             I worked as <span>Consultant</span> where I was  assisting clients in various way
             including product they would accommodate and communicate their need,
-            at <span>Yogans Direct marketing.</span> Company.</p>
+            at <span>Yogans Direct marketing</span> company.</p>
         </div>
 
         <div class="experience-web">
@@ -150,6 +151,12 @@
         <div class="website-coded">
           <h2>Code Projects</h2>
 
+           <a href="https://z687870.github.io/Full-Stack-website/" class="web-btn">
+            <i class='bx bx-link-external'></i>
+            <h3>Register&Login </h3>
+            <p>PHP, mySQL</p>
+        </a>
+
 
           <a href=" https://z687870.github.io/order-website/" class="web-btn">
             <i class='bx bx-link-external'></i>
@@ -162,11 +169,7 @@
             <p>JavaScript and Css</p>
         </a>
   
-          <a href="https://z687870.github.io/Uploadsphoto/" class="web-btn">
-            <i class='bx bx-link-external'></i>
-            <h3>UpLoadsPhoto</h3>
-            <p>Javascript, HTML and CSS</p>
-        </a>
+       
     
         </div>
 
@@ -263,7 +266,7 @@
           </div>
 
              <div class="skills-technical">
-            <div class="skill-name">mySQL</div>
+            <div class="skill-name">MySQL</div>
             <div class="skill-bar">
               <div class="skill-per" per="43%" style="max-width: 43%"></div>
             </div>
@@ -294,44 +297,37 @@
     </section>
 
     <section class="contact" id="contact">
-      <h2 class="heading">Contact <span>Me</span></h2>
+      <h2 class="heading">Contact <span>me</span></h2>
+
       <div class="contact-form">
+    
+    <form class="contact-field" action="https://api.web3forms.com/submit" method="POST">
+      <h3>Send us message</h3>
+      <hr>
+      <input type="hidden" name="access_key" value="4d89962c-afc6-4757-9614-d393c0549f4d">
+      <input type="text" name="name" placeholder="Enter your name" class="input-form" required>
+      <input type="text" name="email" placeholder="Enter your email" class="input-form" required>
+      <textarea name="message" placeholder="Text your message" class="input-form"></textarea>
+      <button type="submit" class="btn">Send<i class='bxr  bx-arrow-right'  ></i></button>
+    </form>
+
+
         <div class="contact-icon">
           <div class="contact-name">
-            <i class="bx bx-map"></i> Amanzimtoti 4126 Durban 4001
+            <i class="bx bx-map"></i><p>Kingsburgh west Amanzimtoti 4126 </p>
+            <hr>
           </div>
           <div class="contact-name">
-            <i class="bx bx-envelope"></i>philisophiliso524@gmail.com
+            <i class="bx bx-envelope"></i><p>philisophiliso524@gmail.com</p>
+            <hr>
           </div>
           <div class="contact-name">
-            <i class="bx bxs-phone"></i>(+27)63 8083 200 / (+27)71 485 2551
+            <i class="bx bxs-phone"></i><p>(+27)63 8083 200</p>
+            <hr>
           </div>
         </div>
 
-        <div class="contact-main">
-          <form class="contact" action="" method="post">
-            <div class="contact-box">
-              <input type="text" placeholder="Full Name" id="name"/>
-              <input type="email" placeholder="Your Email" id="email"/>
-            </div>
-
-            <div class="contact-box">
-              <input type="number" placeholder="Your Number" id="phone" class="item" autocomplete="off"/>
-              <input type="text" placeholder="Email Subject" id="subject" class="item" autocomplete="off" />
-            </div>
-
-            <textarea
-              name=""
-              id="message"
-              class="item" autocomplete="off"
-              cols="30"
-              rows="10"
-              placeholder="Your Message"
-            ></textarea>
-            <button type="submit" class="btn">Send</button>
-          </form>
-        </div>
-      </div>
+       </div>
     </section>
  
 
@@ -349,6 +345,8 @@
 
     <!-- custom js --->
     <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script>
       let menuIcon = document.querySelector("#menu-icon");
